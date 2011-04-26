@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TestMultiViewTests' target in the 'TestMultiViewTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

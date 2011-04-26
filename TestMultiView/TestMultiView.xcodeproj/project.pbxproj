@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85C7079F135D4B3F00F96AE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7079E135D4B3F00F96AE5 /* UIKit.framework */; };
+		85C707A1135D4B3F00F96AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C707A0135D4B3F00F96AE5 /* Foundation.framework */; };
+		85C707A3135D4B3F00F96AE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C707A2135D4B3F00F96AE5 /* CoreGraphics.framework */; };
+		85C707A9135D4B3F00F96AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85C707A7135D4B3F00F96AE5 /* InfoPlist.strings */; };
+		85C707AC135D4B3F00F96AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C707AB135D4B3F00F96AE5 /* main.m */; };
+		85C707AF135D4B3F00F96AE5 /* TestMultiViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C707AE135D4B3F00F96AE5 /* TestMultiViewAppDelegate.m */; };
+		85C707B2135D4B3F00F96AE5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C707B0135D4B3F00F96AE5 /* MainWindow.xib */; };
+		85C707B9135D4B3F00F96AE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7079E135D4B3F00F96AE5 /* UIKit.framework */; };
+		85C707BA135D4B3F00F96AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C707A0135D4B3F00F96AE5 /* Foundation.framework */; };
+		85C707BB135D4B3F00F96AE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C707A2135D4B3F00F96AE5 /* CoreGraphics.framework */; };
+		85C707C3135D4B3F00F96AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85C707C1135D4B3F00F96AE5 /* InfoPlist.strings */; };
+		85C707C6135D4B3F00F96AE5 /* TestMultiViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 85C707C5135D4B3F00F96AE5 /* TestMultiViewTests.h */; };
+		85C707C8135D4B4000F96AE5 /* TestMultiViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C707C7135D4B4000F96AE5 /* TestMultiViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85C707BC135D4B3F00F96AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C70791135D4B3F00F96AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C70799135D4B3F00F96AE5;
+			remoteInfo = TestMultiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85C7079A135D4B3F00F96AE5 /* TestMultiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C7079E135D4B3F00F96AE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85C707A0135D4B3F00F96AE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85C707A2135D4B3F00F96AE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85C707A6135D4B3F00F96AE5 /* TestMultiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMultiView-Info.plist"; sourceTree = "<group>"; };
+		85C707A8135D4B3F00F96AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85C707AA135D4B3F00F96AE5 /* TestMultiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMultiView-Prefix.pch"; sourceTree = "<group>"; };
+		85C707AB135D4B3F00F96AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85C707AD135D4B3F00F96AE5 /* TestMultiViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMultiViewAppDelegate.h; sourceTree = "<group>"; };
+		85C707AE135D4B3F00F96AE5 /* TestMultiViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultiViewAppDelegate.m; sourceTree = "<group>"; };
+		85C707B1135D4B3F00F96AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		85C707B8135D4B3F00F96AE5 /* TestMultiViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultiViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C707C0135D4B3F00F96AE5 /* TestMultiViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMultiViewTests-Info.plist"; sourceTree = "<group>"; };
+		85C707C2135D4B3F00F96AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85C707C4135D4B3F00F96AE5 /* TestMultiViewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMultiViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		85C707C5135D4B3F00F96AE5 /* TestMultiViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMultiViewTests.h; sourceTree = "<group>"; };
+		85C707C7135D4B4000F96AE5 /* TestMultiViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultiViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C70797135D4B3F00F96AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C7079F135D4B3F00F96AE5 /* UIKit.framework in Frameworks */,
+				85C707A1135D4B3F00F96AE5 /* Foundation.framework in Frameworks */,
+				85C707A3135D4B3F00F96AE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C707B4135D4B3F00F96AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C707B9135D4B3F00F96AE5 /* UIKit.framework in Frameworks */,
+				85C707BA135D4B3F00F96AE5 /* Foundation.framework in Frameworks */,
+				85C707BB135D4B3F00F96AE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85C7078F135D4B3F00F96AE5 = {
+			isa = PBXGroup;
+			children = (
+				85C707A4135D4B3F00F96AE5 /* TestMultiView */,
+				85C707BE135D4B3F00F96AE5 /* TestMultiViewTests */,
+				85C7079D135D4B3F00F96AE5 /* Frameworks */,
+				85C7079B135D4B3F00F96AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85C7079B135D4B3F00F96AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C7079A135D4B3F00F96AE5 /* TestMultiView.app */,
+				85C707B8135D4B3F00F96AE5 /* TestMultiViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C7079D135D4B3F00F96AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C7079E135D4B3F00F96AE5 /* UIKit.framework */,
+				85C707A0135D4B3F00F96AE5 /* Foundation.framework */,
+				85C707A2135D4B3F00F96AE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C707A4135D4B3F00F96AE5 /* TestMultiView */ = {
+			isa = PBXGroup;
+			children = (
+				85C707AD135D4B3F00F96AE5 /* TestMultiViewAppDelegate.h */,
+				85C707AE135D4B3F00F96AE5 /* TestMultiViewAppDelegate.m */,
+				85C707B0135D4B3F00F96AE5 /* MainWindow.xib */,
+				85C707A5135D4B3F00F96AE5 /* Supporting Files */,
+			);
+			path = TestMultiView;
+			sourceTree = "<group>";
+		};
+		85C707A5135D4B3F00F96AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C707A6135D4B3F00F96AE5 /* TestMultiView-Info.plist */,
+				85C707A7135D4B3F00F96AE5 /* InfoPlist.strings */,
+				85C707AA135D4B3F00F96AE5 /* TestMultiView-Prefix.pch */,
+				85C707AB135D4B3F00F96AE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C707BE135D4B3F00F96AE5 /* TestMultiViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				85C707C5135D4B3F00F96AE5 /* TestMultiViewTests.h */,
+				85C707C7135D4B4000F96AE5 /* TestMultiViewTests.m */,
+				85C707BF135D4B3F00F96AE5 /* Supporting Files */,
+			);
+			path = TestMultiViewTests;
+			sourceTree = "<group>";
+		};
+		85C707BF135D4B3F00F96AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C707C0135D4B3F00F96AE5 /* TestMultiViewTests-Info.plist */,
+				85C707C1135D4B3F00F96AE5 /* InfoPlist.strings */,
+				85C707C4135D4B3F00F96AE5 /* TestMultiViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C70799135D4B3F00F96AE5 /* TestMultiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C707CB135D4B4000F96AE5 /* Build configuration list for PBXNativeTarget "TestMultiView" */;
+			buildPhases = (
+				85C70796135D4B3F00F96AE5 /* Sources */,
+				85C70797135D4B3F00F96AE5 /* Frameworks */,
+				85C70798135D4B3F00F96AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMultiView;
+			productName = TestMultiView;
+			productReference = 85C7079A135D4B3F00F96AE5 /* TestMultiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85C707B7135D4B3F00F96AE5 /* TestMultiViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C707CE135D4B4000F96AE5 /* Build configuration list for PBXNativeTarget "TestMultiViewTests" */;
+			buildPhases = (
+				85C707B3135D4B3F00F96AE5 /* Sources */,
+				85C707B4135D4B3F00F96AE5 /* Frameworks */,
+				85C707B5135D4B3F00F96AE5 /* Resources */,
+				85C707B6135D4B3F00F96AE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C707BD135D4B3F00F96AE5 /* PBXTargetDependency */,
+			);
+			name = TestMultiViewTests;
+			productName = TestMultiViewTests;
+			productReference = 85C707B8135D4B3F00F96AE5 /* TestMultiViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C70791135D4B3F00F96AE5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 85C70794135D4B3F00F96AE5 /* Build configuration list for PBXProject "TestMultiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85C7078F135D4B3F00F96AE5;
+			productRefGroup = 85C7079B135D4B3F00F96AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C70799135D4B3F00F96AE5 /* TestMultiView */,
+				85C707B7135D4B3F00F96AE5 /* TestMultiViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C70798135D4B3F00F96AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C707A9135D4B3F00F96AE5 /* InfoPlist.strings in Resources */,
+				85C707B2135D4B3F00F96AE5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C707B5135D4B3F00F96AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C707C3135D4B3F00F96AE5 /* InfoPlist.strings in Resources */,
+				85C707C6135D4B3F00F96AE5 /* TestMultiViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85C707B6135D4B3F00F96AE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C70796135D4B3F00F96AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C707AC135D4B3F00F96AE5 /* main.m in Sources */,
+				85C707AF135D4B3F00F96AE5 /* TestMultiViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C707B3135D4B3F00F96AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C707C8135D4B4000F96AE5 /* TestMultiViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C707BD135D4B3F00F96AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85C70799135D4B3F00F96AE5 /* TestMultiView */;
+			targetProxy = 85C707BC135D4B3F00F96AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85C707A7135D4B3F00F96AE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C707A8135D4B3F00F96AE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85C707B0135D4B3F00F96AE5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C707B1135D4B3F00F96AE5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		85C707C1135D4B3F00F96AE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C707C2135D4B3F00F96AE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C707C9135D4B4000F96AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85C707CA135D4B4000F96AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		85C707CC135D4B4000F96AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultiView/TestMultiView-Prefix.pch";
+				INFOPLIST_FILE = "TestMultiView/TestMultiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85C707CD135D4B4000F96AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultiView/TestMultiView-Prefix.pch";
+				INFOPLIST_FILE = "TestMultiView/TestMultiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		85C707CF135D4B4000F96AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMultiView.app/TestMultiView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultiViewTests/TestMultiViewTests-Prefix.pch";
+				INFOPLIST_FILE = "TestMultiViewTests/TestMultiViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		85C707D0135D4B4000F96AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMultiView.app/TestMultiView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultiViewTests/TestMultiViewTests-Prefix.pch";
+				INFOPLIST_FILE = "TestMultiViewTests/TestMultiViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C70794135D4B3F00F96AE5 /* Build configuration list for PBXProject "TestMultiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C707C9135D4B4000F96AE5 /* Debug */,
+				85C707CA135D4B4000F96AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C707CB135D4B4000F96AE5 /* Build configuration list for PBXNativeTarget "TestMultiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C707CC135D4B4000F96AE5 /* Debug */,
+				85C707CD135D4B4000F96AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85C707CE135D4B4000F96AE5 /* Build configuration list for PBXNativeTarget "TestMultiViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C707CF135D4B4000F96AE5 /* Debug */,
+				85C707D0135D4B4000F96AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C70791135D4B3F00F96AE5 /* Project object */;
+}
