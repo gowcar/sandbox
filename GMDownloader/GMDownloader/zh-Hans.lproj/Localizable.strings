@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GMDownloader
+
+  Created by jeremy on 4/4/11.
+  Copyright 2011 shenzhen. All rights reserved.
+*/
+"Music Category"="音乐分类";
+"Popular Music"="流行热歌";
+"Load Popular Music List"="加载流行热歌列表";
+"Popular Music Details"="流行热歌详情";
+"Load Popular Music Details"="加载流行热歌详情";
+"Download"="下载";

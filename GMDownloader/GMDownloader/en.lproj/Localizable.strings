@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GMDownloader
+
+  Created by jeremy on 4/4/11.
+  Copyright 2011 shenzhen. All rights reserved.
+*/
+"Music Category"="Music Category";
+"Popular Music"="Popular Music";
+"Load Popular Music List"="Load Popular Music List";
+"Popular Music Details"="Popular Music Details";
+"Load Popular Music Details"="Load Popular Music Details";
+"Download"="Download";
